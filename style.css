@@ -3,3 +3,75 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+h1{
+    font-size: 50px;
+}
+.flexcontain{
+    display: flex;
+    margin-bottom: 150px;
+
+}
+.color-blue{
+    color: blue;
+}
+.first-side{
+    width: 50%;
+    padding-left: 5%;
+}
+.first-side img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, salmon);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    
+}
+.sidebyside{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.my-life{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.inter-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px skyblue;
+    border-radius: 5px;
+}
+.inter-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#inter-me{
+    border-left: 8px solid;
+    border-image: linear-gradient(orange, salmon);
+    border-image-slice: 1;
+}
+#inter-he{
+    border-left: 8px solid;
+    border-image: linear-gradient(orange, salmon);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.design{
+    width: 60%;
+    font-size: 900;
+    box-shadow: 10px 10px 40px orange;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 20px 20px;
+    background-image: linear-gradient(orange, white);
+}
